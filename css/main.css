@@ -1,0 +1,99 @@
+.hoverAnchor, .navbar nav ul li a, .footer-inner .footer-nav ul a {
+  color: #9facbd;
+  webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+  .hoverAnchor:hover, .navbar nav ul li a:hover, .footer-inner .footer-nav ul a:hover {
+    color: #fff; }
+
+body {
+  background-color: #f1f1f1;
+  margin: 0; }
+
+.navbar {
+  background-color: #202020; }
+  .navbar .navbar-inner {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding: 45px 50px; }
+  .navbar nav {
+    float: right;
+    padding-top: 30px;
+    text-align: left;
+    margin: 0;
+    line-height: 10px; }
+    .navbar nav .active > a {
+      color: #fff; }
+    .navbar nav ul {
+      list-style-type: none; }
+      .navbar nav ul li {
+        display: block;
+        color: #9facbd;
+        position: relative;
+        padding-bottom: 10px;
+        padding-right: 0px;
+        padding-left: 35px;
+        float: left; }
+
+a {
+  color: #ffffff;
+  text-decoration: none; }
+
+.brand {
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #fff;
+  float: left; }
+  .brand a {
+    webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
+    .brand a:hover {
+      padding-left: 12px;
+      webkit-transition: all 0.4s ease;
+      -moz-transition: all 0.4s ease;
+      transition: all 0.4s ease; }
+
+.clearfix {
+  *
+  display: inline-block;
+  height: 1%; }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.nav-list ul {
+  list-style-type: none;
+  float: right;
+  margin: 0; }
+.nav-list li {
+  display: inline;
+  padding-right: 20px; }
+  .nav-list li:last-child {
+    padding-right: 0px; }
+
+#footer {
+  background-color: #202020;
+  text-align: left; }
+
+.footer-inner {
+  max-width: 960px;
+  padding: 65px 50px;
+  margin: 0 auto; }
+  .footer-inner ul, .footer-inner .col-6 {
+    margin: 0; }
+  .footer-inner .footer-brand {
+    width: 100%; }
+  .footer-inner .footer-info {
+    color: #9facbd; }
+  .footer-inner .footer-nav {
+    float: right;
+    text-align: right; }
+    .footer-inner .footer-nav ul {
+      list-style-type: none; }
+
+/*# sourceMappingURL=main.css.map */
