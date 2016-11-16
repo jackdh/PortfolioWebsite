@@ -18,6 +18,11 @@ body {
     margin: 0 auto;
     position: relative;
     padding: 45px 50px; }
+  .navbar .brand {
+    float: left; }
+    @media screen and (max-width: 45em) {
+      .navbar .brand {
+        width: 100%; } }
   .navbar nav {
     float: right;
     padding-top: 30px;
@@ -26,6 +31,12 @@ body {
     line-height: 10px; }
     .navbar nav .active > a {
       color: #fff; }
+    @media screen and (max-width: 45em) {
+      .navbar nav {
+        padding-top: 0;
+        float: none; }
+        .navbar nav ul {
+          padding: 0; } }
     .navbar nav ul {
       list-style-type: none; }
       .navbar nav ul li {
@@ -36,6 +47,10 @@ body {
         padding-right: 0px;
         padding-left: 35px;
         float: left; }
+        @media screen and (max-width: 45em) {
+          .navbar nav ul li {
+            padding-left: 0;
+            padding-right: 15px; } }
 
 a {
   color: #ffffff;
@@ -45,8 +60,7 @@ a {
   font-size: 35px;
   text-transform: uppercase;
   text-align: left;
-  color: #fff;
-  float: left; }
+  color: #fff; }
   .brand a {
     webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -96,4 +110,15 @@ a {
     .footer-inner .footer-nav ul {
       list-style-type: none; }
 
-/*# sourceMappingURL=main.css.map */
+.copywrite {
+  background: #1A1A1A;
+  width: 100%;
+  display: block; }
+  .copywrite .copywrite-inner {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 35px 50px;
+    color: #9facbd;
+    font-size: 14px; }
+
+/*# sourceMappingURL=headerFooter.css.map */

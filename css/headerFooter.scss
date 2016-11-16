@@ -1,6 +1,9 @@
 $black: #202020;
 $grey: #9facbd;
 $max-width: 960px;
+$breakpoint-small: 33.75em; // 540px
+$breakpoint-med: 45em; // 720px
+$breakpoint-large: 60em; // 960px
 @mixin movement($time) {
   webkit-transition: all $time ease;
   -moz-transition: all $time ease;
@@ -28,6 +31,12 @@ body {
     position: relative;
     padding: 45px 50px;
   }
+  .brand {
+    float: left;
+    @media screen and (max-width: $breakpoint-med) {
+      width: 100%;
+    }
+  }
   nav {
     float: right;
     padding-top: 30px;
@@ -36,6 +45,13 @@ body {
     line-height: 10px;
     .active > a {
       color: #fff;
+    }
+    @media screen and (max-width: $breakpoint-med) {
+      padding-top: 0;
+      float: none;
+      ul {
+        padding: 0;
+      }
     }
     ul {
       list-style-type: none;
@@ -47,6 +63,10 @@ body {
         padding-right: 0px;
         padding-left: 35px;
         float: left;
+        @media screen and (max-width: $breakpoint-med) {
+          padding-left: 0;
+          padding-right: 15px;
+        }
         a {
           @extend .hoverAnchor;
         }
@@ -64,7 +84,6 @@ a {
   text-transform: uppercase;
   text-align: left;
   color: #fff;
-  float: left;
   a {
     @include movement(0.4s);
     &:hover {
@@ -133,5 +152,17 @@ a {
         @extend .hoverAnchor;
       }
     }
+  }
+}
+.copywrite {
+  background: #1A1A1A;
+  width: 100%;
+  display: block;
+  .copywrite-inner {
+    margin: 0 auto;
+    max-width: $max-width;
+    padding: 35px 50px;
+    color: $grey;
+    font-size: 14px;
   }
 }
