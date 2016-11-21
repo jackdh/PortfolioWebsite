@@ -1,3 +1,37 @@
+h2 {
+  margin: 0; }
 
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  max-height: 160px; }
+
+.card-shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+.cover-photo img {
+  width: 100%;
+  cursor: pointer; }
+
+.item h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 1.5rem; }
+.item .info {
+  margin-top: 10px;
+  margin-left: 20px; }
+.item blockquote {
+  margin: 0; }
+.item .meta {
+  color: #4f5967;
+  font-style: italic; }
+.item a {
+  font-weight: bold;
+  color: #202020;
+  cursor: pointer; }
+  .item a:hover {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=blog.css.map */

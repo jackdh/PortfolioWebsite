@@ -45,11 +45,11 @@ $pageName = strtolower($link_array[count($link_array)-2]);
         </h1>
         <nav role="navigation" class="navbar-nav">
             <ul>
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="Portfolio">Portfolio</a></li>
-                <li><a href="Blog">Blog</a></li>
-                <li><a href="Resume">Resume</a></li>
-                <li><a href="Contact">Contact</a></li>
+                <li class="<?= ($pageName == $subFolder) ?  "active" : ""?>"><a href="<?php echo $baseUrl;?>">Home</a></li>
+                <li class="<?= ($pageName == "portfolio") ?  "active" : ""?>"><a href="Portfolio">Portfolio</a></li>
+                <li class="<?= ($pageName == "blog") ?  "active" : ""?>"><a href="Blog">Blog</a></li>
+                <li class="<?= ($pageName == "resume") ?  "active" : ""?>"><a href="Resume">Resume</a></li>
+                <li class="<?= ($pageName == "contact") ?  "active" : ""?>"><a href="Contact">Contact</a></li>
             </ul>
         </nav>
     </div>
