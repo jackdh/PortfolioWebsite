@@ -1,0 +1,85 @@
+.card-2, .featured-items .image-wrapper .button {
+  webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .card-2:hover, .featured-items .image-wrapper .button:hover {
+    webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.25), 0 4px 5px rgba(0, 0, 0, 0.18); }
+
+.hero {
+  word-wrap: break-word;
+  text-align: center;
+  overflow: auto;
+  font-size: 30px;
+  line-height: 40px;
+  color: #FFF;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  padding-top: 65px;
+  animation: fadeintext 2s;
+  -webkit-animation: fadeintext 2s;
+  -moz-animation: fadeintext 2s; }
+  @media screen and (max-width: 45em) {
+    .hero {
+      max-width: 82%;
+      margin: 0 auto; } }
+
+.hero-inner {
+  word-wrap: break-word;
+  padding: 65px 50px;
+  margin: 0 auto;
+  max-width: 860px;
+  background: #a0cac0; }
+
+.featured-items {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 0px 160px; }
+  .featured-items .col-4 img {
+    max-width: 100%; }
+  .featured-items .col-4:nth-child(2) .image-wrapper {
+    margin: 0 auto; }
+  .featured-items .col-4:last-child .image-wrapper {
+    float: right; }
+    @media screen and (max-width: 45em) {
+      .featured-items .col-4:last-child .image-wrapper {
+        float: none; } }
+  .featured-items .image-wrapper {
+    max-width: 90%;
+    position: relative; }
+    .featured-items .image-wrapper .image-overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center; }
+      .featured-items .image-wrapper .image-overlay:before {
+        content: ' ';
+        display: block;
+        height: 78%; }
+    @media screen and (max-width: 45em) {
+      .featured-items .image-wrapper {
+        max-width: 82%;
+        margin: 0 auto; } }
+    .featured-items .image-wrapper .button {
+      padding: 5px 35px 5px 35px;
+      background-color: #a0cac0;
+      color: #FFFFFF;
+      margin: 0 auto;
+      width: 35px;
+      cursor: pointer;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      border-radius: 2px; }
+
+button {
+  -webkit-appearance: none;
+  border-width: 0;
+  box-sizing: inherit; }
+
+/*# sourceMappingURL=home.css.map */
