@@ -13,7 +13,7 @@ body {
 .navbar {
   background-color: #202020; }
   .navbar .navbar-inner {
-    max-width: 960px;
+    max-width: 60rem;
     display: block;
     margin: 0 auto;
     position: relative;
@@ -95,7 +95,7 @@ a {
   text-align: left; }
 
 .footer-inner {
-  max-width: 960px;
+  max-width: 60rem;
   padding: 65px 50px;
   margin: 0 auto; }
   .footer-inner ul, .footer-inner .col-6 {
@@ -116,7 +116,7 @@ a {
   display: block; }
   .copywrite .copywrite-inner {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 60rem;
     padding: 35px 50px;
     color: #9facbd;
     font-size: 14px; }
