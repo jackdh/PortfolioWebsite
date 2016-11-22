@@ -1,4 +1,27 @@
 @import "colours";
+
+@mixin movement($time) {
+  webkit-transition: all $time ease;
+  -moz-transition: all $time ease;
+  transition: all $time ease;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.card-2 {
+  @include movement(0.2s);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  &:hover {
+    @include movement(0.2s);
+    box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 4px 5px rgba(0, 0, 0, 0.18);
+  }
+}
+
 h2 {
   margin: 0;
 }
@@ -7,9 +30,8 @@ h2 {
   background: #fff;
   border-radius: 2px;
   display: inline-block;
-  margin: 1rem;
+  margin: 1rem 0;
   position: relative;
-  max-height: 160px;
 }
 
 .card-shadow {
@@ -17,6 +39,7 @@ h2 {
 }
 
 .cover-photo {
+  height: 160px;
   img {
     width: 100%;
     cursor: pointer;
@@ -32,6 +55,7 @@ h2 {
   .info {
     margin-top: 10px;
     margin-left: 20px;
+    margin-bottom: 18px;
   }
   blockquote {
     margin: 0;
@@ -50,4 +74,42 @@ h2 {
   }
 
 
+}
+
+.button {
+  padding: 5px 35px 5px 35px;
+  background-color: $green;
+  color: #FFFFFF;
+  width: 35px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  float: right;
+  @include border-radius(2px);
+  @extend .card-2;
+}
+
+.hidden, #blog-template {
+  display: none;
+ }
+
+//Remove inherited styling
+button {
+  -webkit-appearance:none;
+  border-width: 0;
+  box-sizing: inherit;
+}
+
+.clear-fix:after
+{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear-fix
+{
+  zoom: 1;
 }

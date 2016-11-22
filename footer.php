@@ -41,7 +41,7 @@
 <!-- Tries to use the CDN as this is more efficient due to being able to use a possible cached version.-->
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <!-- If the CDN does not work then load Jquery locally.-->
-<script>window.jQuery || document.write('<script src="js/jquery-3.1.1.min.js"><\/script>')</script>
-<script src="js/main.js"></script>
+<script>window.jQuery || document.write('<script src="<?php echo BASE_URL ?>js/jquery-3.1.1.min.js"><\/script>')</script>
+<script src="<?php echo BASE_URL ?>js/main.js"></script>
 </body>
 </html>

@@ -1,10 +1,12 @@
 <?php
-$subFolder = "cw2";
-$baseUrl = "http://localhost:8888/".$subFolder."/";
+define("SUB_FOLDER", "cw2");
+define("BASE_URL", "http://localhost:8888/".SUB_FOLDER."/");
+
 
 $link = $_SERVER['PHP_SELF'];
 $link_array = explode('/',$link);
 $pageName = strtolower($link_array[count($link_array)-2]);
+
 ?>
 <!doctype html>
 <html class="no-js" lang="">
@@ -19,14 +21,14 @@ $pageName = strtolower($link_array[count($link_array)-2]);
     <!-- Place favicon.ico in the root directory -->
 
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo $baseUrl ?>css/simple-grid.css">
-    <link rel="stylesheet" href="<?php echo $baseUrl ?>css/headerFooter.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL ?>css/simple-grid.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL ?>css/headerFooter.css">
 
-    <?php if ($pageName == $subFolder) {?>
-        <link rel="stylesheet" href="<?php echo $baseUrl ?>css/home.css">
+    <?php if ($pageName == SUB_FOLDER) {?>
+        <link rel="stylesheet" href="<?php echo BASE_URL ?>css/home.css">
     <?php } else { ?>
-        <link rel="stylesheet" href="<?php echo $baseUrl . "css/" . $pageName . ".css" ?>">
-        <link rel="stylesheet" href="<?php echo $baseUrl . "css/shared.css" ?>">
+        <link rel="stylesheet" href="<?php echo BASE_URL . "css/" . $pageName . ".css" ?>">
+        <link rel="stylesheet" href="<?php echo BASE_URL ?>css/shared.css">
     <?php } ?>
 
 
@@ -41,11 +43,11 @@ $pageName = strtolower($link_array[count($link_array)-2]);
 <header class="navbar">
     <div class="navbar-inner clearfix">
         <h1 class="brand">
-            <a class="navbar-brand" href="<?php echo $baseUrl;?>">Jackdh</a>
+            <a class="navbar-brand" href="<?php echo BASE_URL;?>">Jackdh</a>
         </h1>
         <nav role="navigation" class="navbar-nav">
             <ul>
-                <li class="<?= ($pageName == $subFolder) ?  "active" : ""?>"><a href="<?php echo $baseUrl;?>">Home</a></li>
+                <li class="<?= ($pageName == SUB_FOLDER) ?  "active" : ""?>"><a href="<?php echo BASE_URL;?>">Home</a></li>
                 <li class="<?= ($pageName == "portfolio") ?  "active" : ""?>"><a href="Portfolio">Portfolio</a></li>
                 <li class="<?= ($pageName == "blog") ?  "active" : ""?>"><a href="Blog">Blog</a></li>
                 <li class="<?= ($pageName == "resume") ?  "active" : ""?>"><a href="Resume">Resume</a></li>
