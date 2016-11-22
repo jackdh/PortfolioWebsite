@@ -13,6 +13,7 @@
   border-radius: $radius;
 }
 
+
 .card-2 {
   @include movement(0.2s);
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -47,6 +48,10 @@ h2 {
 
 }
 
+.removeThis {
+  height: 0;
+}
+
 .item {
   h2 {
     font-family: Raleway, sans-serif;
@@ -57,8 +62,9 @@ h2 {
     margin-left: 20px;
     margin-bottom: 18px;
   }
-  blockquote {
+  article, blockquote {
     margin: 0;
+    margin-right: 20px;
   }
   .meta {
     color: $greyOnWhite;
@@ -75,6 +81,8 @@ h2 {
 
 
 }
+
+
 
 .button {
   padding: 5px 35px 5px 35px;

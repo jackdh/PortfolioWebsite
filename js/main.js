@@ -27,7 +27,7 @@ $.getJSON("../Blog/blogPosts.json", function(json) {
 
 function generateExcerpt(post) {
     if (post.length > 200) {
-        return post.substr(0,200) + "...";
+        return post.substr(0,200).replace(/\<br\>/g," ") + "...";
     } else {
         return post;
     }
@@ -46,8 +46,8 @@ $(document).on('click', '.read-more', function() {
     if (expanded == 'false') {
         // Blog post is not expanded.
         var itemJson = allPosts[id];
-        item.find('.excerpt').addClass("hidden");
-        item.find('.article').removeClass("hidden");
+        item.find('.excerpt').hide();
+        item.find('.article').show();
         item.find('.article').html(itemJson.post);
 
 
@@ -55,8 +55,11 @@ $(document).on('click', '.read-more', function() {
         button.html("Click to close article");
     } else {
         // Blog post is expanded.
-        item.find('.article').addClass("hidden");
-        item.find('.excerpt').removeClass("hidden");
+        item.find('.article').hide();
+        item.find('.excerpt').show();
+
+
+
         button.attr('data-expanded', 'false');
         button.html("Click to read more");
 

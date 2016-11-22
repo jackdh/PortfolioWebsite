@@ -28,6 +28,9 @@ h2 {
     width: 100%;
     cursor: pointer; }
 
+.removeThis {
+  height: 0; }
+
 .item h2 {
   font-family: Raleway, sans-serif;
   font-size: 1.5rem; }
@@ -35,8 +38,9 @@ h2 {
   margin-top: 10px;
   margin-left: 20px;
   margin-bottom: 18px; }
-.item blockquote {
-  margin: 0; }
+.item article, .item blockquote {
+  margin: 0;
+  margin-right: 20px; }
 .item .meta {
   color: #4f5967;
   font-style: italic; }
