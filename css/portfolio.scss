@@ -86,6 +86,8 @@ main {
   }
 }
 
+//Modal
+
 //Remove inherited styling
 button {
   -webkit-appearance:none;
@@ -110,23 +112,92 @@ button {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
+  position: relative;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  h2 {
+    margin-top: 0px;
+    line-height: 1;
+  }
 }
 
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
 }
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.featured-media {
+  text-align: center;
+  img {
+    //width: 60%;
+  }
+}
+
+//.close {
+//  position: absolute;
+//  top: 0px;
+//  right: 10px;
+//  font-size: 25px;
+//  color: $grey;
+//  cursor: pointer;
+//}
+
+button {
+  margin-top: -2px;
+
+  &.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    position: absolute;
+    top: -4px;
+    right: 10px;
+    font-size: 35px;
+  }
+}
+
+.portfolio-controls {
+  clear: none;
+  margin: 0 auto;
+  max-width: 400px;
+  button {
+    float: none;
+  }
+  button:first-child {
+    float: left;
+  }
+  button:last-child {
+    float: right;
+  }
+}
+
+#search {
+  display: block;
+  width: 100%;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #55595c;
+  background-color: #fff;
+  background-image: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+  margin-top: 10px;
 }

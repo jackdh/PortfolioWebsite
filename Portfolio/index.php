@@ -30,8 +30,8 @@ include '../header.php';
                     <p>Welcome to my portfolio page!.</p>
                     <p>This is the page that I will occasionally update with project that I have worked on and
                         released.</p>
-                    <h3>Search</h3>
-                    <input type="search"/>
+                    <label for="search">Search</label>
+                    <input id="search" type="search"/>
                 </div>
             </aside>
         </div>
@@ -58,18 +58,26 @@ include '../header.php';
     <button id="myBtn">Open Modal</button>
 
     <div id="myModal" class="modal">
-        <!-- Modal content -->
         <div class="modal-content">
-            <div class="modal-header">
-                <span class="close">×</span>
-                <h2>Modal Header</h2>
-            </div>
-            <div class="modal-body">
-                <p>Some text in the Modal Body</p>
-                <p>Some other text...</p>
-            </div>
-            <div class="modal-footer">
-                <h3>Modal Footer</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            <div class="row">
+                <div class="col-6 featured-media">
+                    <div>
+                        <img class="cover-img" src="https://placehold.it/400x247">
+                    </div>
+                    <div class="portfolio-controls">
+                        <button class="button previous">Previous</button>
+                        <button class="button next">Next</button>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <h2>Angel Hack</h2>
+                    <div class="meta">20th Oct 2016</div>
+                    <article>THis is an artcile this is just random information that I have typed out while not paying attention to Rachel in SPM as guess what I too can just read from the slide, where is the value added for the money taht I am paying for this.</article>
+                </div>
             </div>
         </div>
     </div>

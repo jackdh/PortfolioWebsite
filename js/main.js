@@ -100,15 +100,14 @@ if ($('#portfolio-page').length) {
         var id = button.attr('data-post');
         var expanded = button.attr('data-expanded');
         var item = $("#blog-" + id);
-        alert("#blog-" + id);
 
-        if (expanded == 'false') {
-            // Blog post is not expanded.
-            var itemJson = allPosts[id];
-        } else {
-            // Blog post is expanded.
+        var itemJson = portfolioPosts[id];
+        $('.modal').show();
 
-        }
+    });
+
+    $(document).on('click', '.close', function() {
+        $('.modal').hide();
     });
 
     /** Start Model */
@@ -116,10 +115,6 @@ if ($('#portfolio-page').length) {
 
     var btn = $('#myBtn');
 
-    $(document).on('click', '#myBtn', function() {
-        $('.modal').show();
-        // alert("model clicked");
-    });
 
     window.onclick = function(event) {
         var modal = $('.modal');
