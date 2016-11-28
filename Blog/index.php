@@ -11,12 +11,12 @@
 
 
 
-<div class="container">
-    <h1 class="header">Blog</h1>
+<div class="wrapper">
+    <h1 id="blog-title" class="header">Blog</h1>
 
-    <div class="content-wrapper">
+    <main class="content-wrapper">
 
-    </div>
+    </main>
 
     <div class="clear-fix">
         <button class="button" id="blog-load-next">Next</button>
@@ -35,7 +35,13 @@
                 <h2 class="title"></h2>
                 <div class="meta"></div>
                 <blockquote class="excerpt"></blockquote>
-                <article class="article"></article>
+                <article class="article" style="display: none">
+                    <div class="article-inner">
+
+                    </div>
+                    <div class="comments-wrapper">
+                        <a class="comments-button">Click to expand comments. (5)</a></div>
+                </article>
                 <a class="read-more" data-post="" data-expanded="false">Click to read more.</a>
             </div>
         </div>

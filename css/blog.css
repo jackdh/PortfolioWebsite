@@ -1,3 +1,13 @@
+h2 {
+  margin: 0; }
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 1rem 0;
+  position: relative; }
+
 .card-2, .button {
   webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -9,16 +19,6 @@
     transition: all 0.2s ease;
     box-shadow: 0 14px 40px rgba(0, 0, 0, 0.25), 0 4px 5px rgba(0, 0, 0, 0.18); }
 
-h2 {
-  margin: 0; }
-
-.card {
-  background: #fff;
-  border-radius: 2px;
-  display: inline-block;
-  margin: 1rem 0;
-  position: relative; }
-
 .card-shadow {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
@@ -26,7 +26,9 @@ h2 {
   height: 160px; }
   .cover-photo img {
     width: 100%;
-    cursor: pointer; }
+    height: 100%;
+    cursor: pointer;
+    border-top-left-radius: 2px; }
 
 .removeThis {
   height: 0; }
@@ -41,6 +43,8 @@ h2 {
 .item article, .item blockquote {
   margin: 0;
   margin-right: 20px; }
+.item blockquote {
+  line-height: 1; }
 .item .meta {
   color: #4f5967;
   font-style: italic; }
@@ -50,6 +54,9 @@ h2 {
   cursor: pointer; }
   .item a:hover {
     text-decoration: underline; }
+@media screen and (max-width: 45em) {
+  .item .col-2 {
+    display: none; } }
 
 .button {
   padding: 5px 35px 5px 35px;
@@ -82,5 +89,13 @@ button {
 
 .clear-fix {
   zoom: 1; }
+
+.comments-wrapper {
+  margin: 15px 0; }
+
+.comments-button {
+  font-weight: bold;
+  color: #202020;
+  margin: 15px 0px; }
 
 /*# sourceMappingURL=blog.css.map */

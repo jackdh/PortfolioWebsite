@@ -1,6 +1,17 @@
+@import "variables";
+
+
 h1 {
   &.header {
     font-family: 'Raleway', sans-serif;
     text-align: center;
   }
 }
+
+.wrapper {
+  width: $navbar-width;
+  margin: 0 auto;
+}
+
+
+

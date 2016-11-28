@@ -13,7 +13,7 @@ body {
 .navbar {
   background-color: #202020; }
   .navbar .navbar-inner {
-    max-width: 60rem;
+    max-width: 960px;
     display: block;
     margin: 0 auto;
     position: relative;
@@ -95,7 +95,7 @@ a {
   text-align: left; }
 
 .footer-inner {
-  max-width: 60rem;
+  max-width: 960px;
   padding: 65px 50px;
   margin: 0 auto; }
   .footer-inner ul, .footer-inner .col-6 {
@@ -111,14 +111,14 @@ a {
       list-style-type: none; }
 
 .copywrite {
-  background: #1A1A1A;
+  background: #e53935;
   width: 100%;
   display: block; }
   .copywrite .copywrite-inner {
     margin: 0 auto;
-    max-width: 60rem;
+    max-width: 960px;
     padding: 35px 50px;
-    color: #9facbd;
+    color: white;
     font-size: 14px; }
 
 /*# sourceMappingURL=headerFooter.css.map */

@@ -24,12 +24,17 @@ $pageName = strtolower($link_array[count($link_array)-2]);
     <link rel="stylesheet" href="<?php echo BASE_URL ?>css/simple-grid.css">
     <link rel="stylesheet" href="<?php echo BASE_URL ?>css/headerFooter.css">
 
+
+
     <?php if ($pageName == SUB_FOLDER) {?>
         <link rel="stylesheet" href="<?php echo BASE_URL ?>css/home.css">
     <?php } else { ?>
-        <link rel="stylesheet" href="<?php echo BASE_URL . "css/" . $pageName . ".css" ?>">
         <link rel="stylesheet" href="<?php echo BASE_URL ?>css/shared.css">
+        <link rel="stylesheet" href="<?php echo BASE_URL . "css/" . $pageName . ".css" ?>">
+
     <?php } ?>
+
+
 
 
 </head>
@@ -48,10 +53,10 @@ $pageName = strtolower($link_array[count($link_array)-2]);
         <nav role="navigation" class="navbar-nav">
             <ul>
                 <li class="<?= ($pageName == SUB_FOLDER) ?  "active" : ""?>"><a href="<?php echo BASE_URL;?>">Home</a></li>
-                <li class="<?= ($pageName == "portfolio") ?  "active" : ""?>"><a href="Portfolio">Portfolio</a></li>
-                <li class="<?= ($pageName == "blog") ?  "active" : ""?>"><a href="Blog">Blog</a></li>
-                <li class="<?= ($pageName == "resume") ?  "active" : ""?>"><a href="Resume">Resume</a></li>
-                <li class="<?= ($pageName == "contact") ?  "active" : ""?>"><a href="Contact">Contact</a></li>
+                <li class="<?= ($pageName == "portfolio") ?  "active" : ""?>"><a href="<?php echo BASE_URL ?>Portfolio">Portfolio</a></li>
+                <li class="<?= ($pageName == "blog") ?  "active" : ""?>"><a href="<?php echo BASE_URL ?>Blog">Blog</a></li>
+                <li class="<?= ($pageName == "resume") ?  "active" : ""?>"><a href="<?php echo BASE_URL ?>Resume">Resume</a></li>
+                <li class="<?= ($pageName == "contact") ?  "active" : ""?>"><a href="<?php echo BASE_URL ?>Contact">Contact</a></li>
             </ul>
         </nav>
     </div>

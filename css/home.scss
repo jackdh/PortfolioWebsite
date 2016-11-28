@@ -1,8 +1,5 @@
-@import "colours";
-$breakpoint-small: 33.75em; // 540px
-$breakpoint-med: 45em; // 720px
-$breakpoint-large: 60em; // 960px
-$max-width: 82%;
+@import "variables";
+
 
 @mixin movement($time) {
   webkit-transition: all $time ease;
@@ -49,7 +46,7 @@ $max-width: 82%;
   word-wrap: break-word;
   padding: 65px 50px;
   margin: 0 auto;
-  max-width: 860px;
+  max-width: $inner-wider;
   background: $green;
 }
 
