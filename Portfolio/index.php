@@ -41,7 +41,7 @@ include '../header.php';
     <!--    Template JQuery will clone and populate -->
     <div id="portfolio-template">
         <div class="col-6 portfolio-template">
-            <div class="card ">
+            <div class="card card-shadow">
                 <div class="image-wrapper">
                     <img class="cover-img" src="">
                 </div>

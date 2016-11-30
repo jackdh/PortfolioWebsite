@@ -25,17 +25,37 @@ h1.header {
     box-shadow: 0 14px 40px rgba(0, 0, 0, 0.25), 0 4px 5px rgba(0, 0, 0, 0.18); }
 
 .card-shadow {
-  hadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-  .card-shadow box-s
-  button {
-    -webkit-appearance: none;
-    border-width: 0;
-    box-sizing: inherit; }
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 .responsive-img {
   display: block;
   max-width: 100%;
   height: auto; }
+
+button {
+  -webkit-appearance: none;
+  border-width: 0;
+  box-sizing: inherit; }
+
+.align-left {
+  float: left; }
+
+.align-right {
+  float: right; }
+
+.clear-fix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.clear-fix {
+  zoom: 1; }
+
+.italic {
+  font-style: italic; }
 
 h2 {
   margin: 0; }
@@ -96,17 +116,6 @@ button {
   -webkit-appearance: none;
   border-width: 0;
   box-sizing: inherit; }
-
-.clear-fix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0; }
-
-.clear-fix {
-  zoom: 1; }
 
 .comments-wrapper {
   margin: 15px 0; }

@@ -84,20 +84,6 @@ button {
   box-sizing: inherit;
 }
 
-.clear-fix:after
-{
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-
-.clear-fix
-{
-  zoom: 1;
-}
 
 .comments-wrapper {
   margin: 15px 0;
