@@ -15,12 +15,12 @@ include '../header.php';
 
         <div class="row">
             <main class="col-12 top-section">
-                <div class="col-6">
+                <div class="col-6-lg">
                     <div class="row card">
-                        <div class="col-4 image">
+                        <div class="col-4-sm image">
                             <img class="responsive-img" src="https://placehold.it/150x150" / >
                         </div>
-                        <div class="col-8 details">
+                        <div class="col-8-sm details">
                             <div class="content">
                             <h2 class="title">JACK DALRYMPLE HAMILTON</h2>
                             <p class="sub-title">Computer Scientist in training</p>
@@ -30,12 +30,12 @@ include '../header.php';
                     </div>
                 </div>
 
-                <div class="col-6">
+                <div class="col-6-lg">
                     <div class="row card">
-                        <div class="col-4">
+                        <div class="col-4-sm">
                             <img class="responsive-img" src="https://placehold.it/150x150" / >
                         </div>
-                        <div class="col-8 details">
+                        <div class="col-8-sm details">
                             <div class="content">
                             <h2 class="title">DOWNLOAD</h2>
                             <p class="sub-title">Please feel free to download a copy of my resume as a PDF.</p>

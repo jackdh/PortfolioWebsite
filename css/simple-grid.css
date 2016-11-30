@@ -98,7 +98,19 @@ p {
 .col-9,
 .col-10,
 .col-11,
-.col-12 {
+.col-12,
+.col-1-lg,
+.col-2-lg,
+.col-3-lg,
+.col-4-lg,
+.col-5-lg,
+.col-6-lg,
+.col-7-lg,
+.col-8-lg,
+.col-9-lg,
+.col-10-lg,
+.col-11-lg,
+.col-12-lg {
   width: 100%; }
 
 .col-1-sm {
@@ -172,6 +184,45 @@ p {
     width: 91.66667%; }
 
   .col-12 {
+    width: 100%; }
+
+  .hidden-sm {
+    display: block; } }
+@media only screen and (min-width: 60em) {
+  .col-1-lg {
+    width: 8.33333%; }
+
+  .col-2-lg {
+    width: 16.66667%; }
+
+  .col-3-lg {
+    width: 25%; }
+
+  .col-4-lg {
+    width: 33.33333%; }
+
+  .col-5-lg {
+    width: 41.66667%; }
+
+  .col-6-lg {
+    width: 50%; }
+
+  .col-7-lg {
+    width: 58.33333%; }
+
+  .col-8-lg {
+    width: 66.66667%; }
+
+  .col-9-lg {
+    width: 75%; }
+
+  .col-10-lg {
+    width: 83.33333%; }
+
+  .col-11-lg {
+    width: 91.66667%; }
+
+  .col-12-lg {
     width: 100%; }
 
   .hidden-sm {

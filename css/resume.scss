@@ -13,13 +13,29 @@
   }
 }
 .top-section {
-  .card {
-    width: 90%;
+
+  @media screen and (min-width: $breakpoint-large) {
+    display: flex;
+    .col-6-lg {
+      display: flex;
+      .card {
+        flex: 1;
+      }
+    }
   }
-  .col-6 {
+  .col-6-lg {
+      //display: flex;
+    .card {
+      max-width: 90%;
+      flex: 1;
+
+    }
     &:last-child {
       .card {
-        float: right;
+        @media screen and (min-width: $breakpoint-large) {
+          float: right;
+          margin-left: auto;
+        }
       }
     }
   }
