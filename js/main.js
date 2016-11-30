@@ -19,7 +19,7 @@ if ($('#blog-title').length) {
             $template.find('.meta').html(item.meta);
             $template.find('.title').html(item.title);
             $template.find('.cover-img').attr("src", item.imgLink);
-            $template.find('.cover-img').attr("alt", item.imgSrc);
+            $template.find('.cover-img').attr("alt", item.imgAlt);
             $('.content-wrapper').append($template);
         });
     });
@@ -78,6 +78,7 @@ if ($('#blog-title').length) {
  * */
 //Check if we are on Portfolio
 if ($('#portfolio-page').length) {
+
     var portfolioPosts;
     $.getJSON("../Portfolio/portfolioPosts.json", function (json) {
         var portfolioTemplate = $(".portfolio-template");
@@ -90,38 +91,77 @@ if ($('#portfolio-page').length) {
             $template.find('.meta').html(item.meta);
             $template.find('.title').html(item.title);
             $template.find('.cover-img').attr("src", item.imgLink);
-            $template.find('.cover-img').attr("alt", item.imgSrc);
+            $template.find('.cover-img').attr("alt", item.imgAlt);
             $('.content-wrapper').append($template);
         });
     });
 
+    // When clicking Read on the project item
     $(document).on('click', '.read', function () {
         var button = $(this);
         var id = button.attr('data-post');
         var expanded = button.attr('data-expanded');
-        var item = $("#blog-" + id);
-
-        var itemJson = portfolioPosts[id];
+        populateModal(id);
         $('.modal').show();
-
     });
 
-    $(document).on('click', '.close', function() {
-        $('.modal').hide();
+    // On the Next / Previous click within the model.
+    $(document).on('click', ".move", function() {
+        var button = $(this);
+        var id = button.attr('data-target');
+        populateModal(id);
     });
+
+
+    // Populate the fields in the model
+    function populateModal(id) {
+        var itemJson = portfolioPosts[id];
+
+        var $cover = $('.single-cover-img');
+        $cover.attr('src', itemJson.imgLink);
+        $cover.attr('alt', itemJson.imgAlt);
+        $('.single-title').html(itemJson.title);
+        $('.single-meta').html(itemJson.meta);
+        $('.single-article').html(itemJson.post);
+
+        /** Next Previous */
+        // Reset
+        $('.previous').show();
+        $('.next').show();
+        // Hide buttons if out of range.
+        var idMinusOne = parseInt(id)-1;
+        var idPlusOne = parseInt(id)+1;
+        if (idMinusOne < 0) {
+            $('.previous').hide();
+        }
+        if (idPlusOne >= portfolioPosts.length) {
+            $('.next').hide();
+        }
+
+
+        $('.previous').attr('data-target', idMinusOne);
+        $('.next').attr('data-target', idPlusOne);
+
+    }
+
+
+
+
 
     /** Start Model */
 
-
-    var btn = $('#myBtn');
-
-
+    // Close the model by clicking off it.
     window.onclick = function(event) {
         var modal = $('.modal');
         if (event.target == modal[0]) {
             $('.modal').hide();
         }
     };
+
+    // Close the model by clicking the X
+    $(document).on('click', '.close', function() {
+        $('.modal').hide();
+    });
 
     /** End Model */
 

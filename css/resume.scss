@@ -1,0 +1,62 @@
+@import "variables";
+@import "shared.scss";
+
+
+
+
+#resume-page {
+  a {
+    color: $blue;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.top-section {
+  .card {
+    width: 90%;
+  }
+  .col-6 {
+    &:last-child {
+      .card {
+        float: right;
+      }
+    }
+  }
+  .content {
+    padding-left: 20px;
+  }
+
+}
+
+.button {
+  padding: 5px 35px 5px 35px;
+  background-color: $green;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin: .5rem 0;
+  @include border-radius(2px);
+  @extend .card-2;
+}
+
+.title {
+  font-size: 14px;
+  color: $black;
+}
+
+.sub-title {
+  font-size: 13px;
+  color: $black;
+}
+.info {
+  font-size: 12px;
+  color: $black;
+}
+
+p {
+  margin: 0;
+}
+h2 {
+  margin-bottom: 0;
+}
+

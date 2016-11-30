@@ -10,7 +10,7 @@ include '../header.php';
 ?>
 
 
-    <div class="wrapper">
+    <div class="container">
         <h1 id="portfolio-page" class="header">Portfolio</h1>
 
         <div class="row">
@@ -55,7 +55,6 @@ include '../header.php';
         </div>
     </div>
 
-    <button id="myBtn">Open Modal</button>
 
     <div id="myModal" class="modal">
         <div class="modal-content">
@@ -65,18 +64,18 @@ include '../header.php';
             <div class="row">
                 <div class="col-6 featured-media">
                     <div>
-                        <img class="cover-img" src="https://placehold.it/400x247">
+                        <img class="single-cover-img" src="">
                     </div>
                     <div class="portfolio-controls">
-                        <button class="button previous">Previous</button>
-                        <button class="button next">Next</button>
+                        <button data-target="" class="button previous move">Previous</button>
+                        <button data-target="" class="button next move">Next</button>
                     </div>
 
                 </div>
                 <div class="col-6">
-                    <h2>Angel Hack</h2>
-                    <div class="meta">20th Oct 2016</div>
-                    <article>THis is an artcile this is just random information that I have typed out while not paying attention to Rachel in SPM as guess what I too can just read from the slide, where is the value added for the money taht I am paying for this.</article>
+                    <h2 class="single-title"></h2>
+                    <div class="meta single-meta"></div>
+                    <article class="single-article"></article>
                 </div>
             </div>
         </div>

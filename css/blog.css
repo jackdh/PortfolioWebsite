@@ -1,5 +1,10 @@
-h2 {
-  margin: 0; }
+h1.header {
+  font-family: 'Raleway', sans-serif;
+  text-align: center; }
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto; }
 
 .card {
   background: #fff;
@@ -20,7 +25,20 @@ h2 {
     box-shadow: 0 14px 40px rgba(0, 0, 0, 0.25), 0 4px 5px rgba(0, 0, 0, 0.18); }
 
 .card-shadow {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  hadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .card-shadow box-s
+  button {
+    -webkit-appearance: none;
+    border-width: 0;
+    box-sizing: inherit; }
+
+.responsive-img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+h2 {
+  margin: 0; }
 
 .cover-photo {
   height: 160px; }

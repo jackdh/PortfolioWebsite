@@ -1,21 +1,5 @@
 @import "variables";
-
-.card {
-  background: #fff;
-  border-radius: 2px;
-  display: inline-block;
-  margin: 1rem 0;
-  position: relative;
-}
-
-.card-2 {
-  @include movement(0.2s);
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  &:hover {
-    @include movement(0.2s);
-    box-shadow: 0 14px 40px rgba(0,0,0,0.25), 0 4px 5px rgba(0, 0, 0, 0.18);
-  }
-}
+@import "shared.scss";
 
 aside {
   background-color: $green;
@@ -44,16 +28,17 @@ main {
       margin: 0;
       font-size: 17px;
     }
-    .meta {
-      color: $greyOnWhite;
-      font-style: italic;
-    }
+
     blockquote {
       margin: 0;
     }
   }
-}
 
+}
+.meta {
+  color: $greyOnWhite;
+  font-style: italic;
+}
 
 #portfolio-template {
   display: none;
@@ -88,12 +73,7 @@ main {
 
 //Modal
 
-//Remove inherited styling
-button {
-  -webkit-appearance:none;
-  border-width: 0;
-  box-sizing: inherit;
-}
+
 
 /* The Modal (background) */
 .modal {
@@ -114,7 +94,8 @@ button {
   background-color: #fefefe;
   position: relative;
   margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
+  padding: 50px 20px;
+  border-radius: 4px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
   -webkit-animation-name: animatetop;

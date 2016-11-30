@@ -46,7 +46,7 @@ $pageName = strtolower($link_array[count($link_array)-2]);
 
 <!-- Add your site or application content here -->
 <header class="navbar">
-    <div class="navbar-inner clearfix">
+    <div class="navbar-inner clearfix container">
         <h1 class="brand">
             <a class="navbar-brand" href="<?php echo BASE_URL;?>">Jackdh</a>
         </h1>

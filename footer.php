@@ -3,8 +3,8 @@
 
 ?>
 
-<footer id="footer">
-    <div class="footer-inner">
+<footer id="footer" class="">
+    <div class="footer-inner container">
         <h1 class="footer-brand brand">
             <a class="" href="/index.php">Jackdh</a>
         </h1>
@@ -36,6 +36,7 @@
         </div>
     </div>
 </footer>
+
 
 
 <!-- Tries to use the CDN as this is more efficient due to being able to use a possible cached version.-->

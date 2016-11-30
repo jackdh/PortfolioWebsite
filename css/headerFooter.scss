@@ -21,6 +21,7 @@ body {
 }
 .navbar {
   background-color: $black;
+  overflow: auto;
   .navbar-inner {
     max-width: $navbar-width;
     display: block;

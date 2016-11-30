@@ -11,7 +11,8 @@ body {
   margin: 0; }
 
 .navbar {
-  background-color: #202020; }
+  background-color: #202020;
+  overflow: auto; }
   .navbar .navbar-inner {
     max-width: 960px;
     display: block;
@@ -119,6 +120,6 @@ a {
     max-width: 960px;
     padding: 35px 50px;
     color: white;
-    font-size: 14px; }
+    font-size: 18px; }
 
 /*# sourceMappingURL=headerFooter.css.map */
