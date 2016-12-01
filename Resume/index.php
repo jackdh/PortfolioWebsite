@@ -18,7 +18,7 @@ include '../header.php';
                 <div class="col-6-lg">
                     <div class="row card card-shadow">
                         <div class="col-4-sm image">
-                            <img alt="Image of the Author, Jack DH" class="responsive-img" src="https://placehold.it/150x150" / >
+                            <img alt="Image of the Author, Jack DH" class="responsive-img" src="../images/me.jpg" / >
                         </div>
                         <div class="col-8-sm details">
                             <div class="content">
@@ -34,7 +34,7 @@ include '../header.php';
                 <div class="col-6-lg">
                     <div class="row card card-shadow">
                         <div class="col-4-sm">
-                            <img alt="Image of a download arrow icon" class="responsive-img" src="https://placehold.it/150x150" / >
+                            <img alt="Image of a download arrow icon" class="responsive-img" src="../images/download.png" / >
                         </div>
                         <div class="col-8-sm details">
                             <div class="content">

@@ -24,7 +24,7 @@ $remote = "~12023277";
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo BASE_URL ?>css/simple-grid.css">
     <link rel="stylesheet" href="<?php echo BASE_URL ?>css/headerFooter.css">
-
+    <link rel="icon" type="image/png" href="<?php echo BASE_URL ?>favicon.ico">
 
     <link rel="stylesheet" href="<?php echo BASE_URL ?>css/shared.css">
     <?php if ($pageName == $remote) {?>
