@@ -1,30 +1,30 @@
 [
   {
     "title" : "Angle Hack",
-    "imgLink" : "https://placehold.it/350x350",
-    "imgSrc" : "Placeholder Image",
+    "imgLink" : "../images/hackathon.jpg",
+    "imgSrc" : "Two people coding infront of a computer",
     "meta" : "Sep 2, 2016",
-    "post" : "Lorem ipsum dolor ffff amet, consectetur adipiscing elit. Donec ut lectus ac augue elementum auctor. Fusce egestas ut nisl at aliquet. Sed lacus tortor, feugiat vitae ante at, placerat aliquam lorem. Nam turpi lectus ac augue elementum auctor. Fusce egestas ut nisl at aliquet. Sed lacus tortor, feugiat vitae ante at, placerat aliquam lorem. Nam turpi"
+    "post" : "I recently went to a hackathon in another country and it was called angel hack! <br> <br> I had a really fantastic time and although I didn't win the main prize I did manage to get second place! I'm looking forward to next year!"
   },
   {
-    "title" : "Second post",
-    "imgLink" : "https://placehold.it/350x350",
-    "imgSrc" : "Placeholder Image",
-    "meta" : "Sep 2, 2016",
-    "post" : "Wouldn't you like to get away? Sometimes you want to go where everybody knows your name. And they're always glad you came! No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be!<br><br> But they got diff'rent strokes. It takes diff'rent strokes - it takes diff'rent strokes to move the world. The mate was a mighty sailin' man the Skipper brave and sure.<br> Five passengers set sail that day for a three hour tour a three hour tour. But they got diff'rent strokes. It takes diff'rent strokes - it takes diff'rent strokes to move the world."
+    "title" : "New Tor Hack found!",
+    "imgLink" : "../images/tor.png",
+    "imgSrc" : "The onion log for Tor",
+    "meta" : "Sep 1, 2016",
+    "post" : "Surprise Surprise Firefox has recently discovered a 0 day exploit which affects all Tor users. <br><br> Tor is a program originality developed by the US Navy for encrypted message but is now being used by people online to protect there anonymity. "
   },
   {
-    "title" : "Third post",
-    "imgLink" : "https://placehold.it/350x350",
+    "title" : "Why I chose to use material design",
+    "imgLink" : "../images/material.png",
     "imgSrc" : "Placeholder Image",
     "meta" : "Sep 3, 2016",
-    "post" : "Come and dance on our floor. Take a step that is new. We've a loveable space that needs your face threes company too.<br><br> The movie star the professor and Mary Ann here on Gilligans Isle! So lets make the most of this beautiful day.<br><br> Since we're together Come and knock on our door. We've been waiting for you. Where the kisses are hers and hers and his. Three's company too."
+    "post" : "Material design is a framework created by google. It provides guildlines on how to style certain elements in your code just as this card design you are looking at right now!<br><br> There are pre built frameworks where you can plug and play although I rewrote each one so that it would all be original on this site!"
   },
   {
-    "title" : "Forth post",
-    "imgLink" : "https://placehold.it/350x350",
-    "imgSrc" : "Placeholder Image",
-    "meta" : "Sep 4, 2016",
-    "post" : "The Brady Bunch the Brady Bunch that's the way we all became the Brady Bunch. Space. The final frontier. These are the voyages of the Starship Enterprise. Space.<br><br> The final frontier. These are the voyages of the Starship Enterprise."
+    "title" : "Website live!",
+    "imgLink" : "../images/blog.jpg",
+    "imgSrc" : "Circular image with the word blog in the middle.",
+    "meta" : "Oct 25, 2016",
+    "post" : "Welcome! Although short this is the first blog post on my new portfolio site. I'm hoping to use this as a single place to collect my thoughts, projects and resume! Please let me know if you have any ideas for the website!"
   }
 ]
