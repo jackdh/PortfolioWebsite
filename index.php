@@ -17,15 +17,7 @@ include 'header.php';
             <div class="row">
                 <div class="col-4">
                     <div class="image-wrapper">
-                        <img alt="featured image of portfolio post 0" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=660%C3%97640&w=660&h=640"/>
-                        <div class="image-overlay">
-                            <a href="<?php echo BASE_URL ?>Portfolio?id=0" class="button">Read</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="image-wrapper">
-                        <img alt="featured image of portfolio post 1" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=660%C3%97640&w=660&h=640"/>
+                        <img alt="featured image of portfolio post 1" src="images/java-square.jpg"/>
                         <div class="image-overlay">
                             <a href="<?php echo BASE_URL ?>Portfolio?id=1" class="button">Read</a>
                         </div>
@@ -33,9 +25,17 @@ include 'header.php';
                 </div>
                 <div class="col-4">
                     <div class="image-wrapper">
-                        <img alt="featured image of portfolio post 2" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=660%C3%97640&w=660&h=640"/>
+                        <img alt="featured image of portfolio post 3" src="images/be.png"/>
                         <div class="image-overlay">
-                            <a href="<?php echo BASE_URL ?>Portfolio?id=2" class="button">Read</a>
+                            <a href="<?php echo BASE_URL ?>Portfolio?id=3" class="button">Read</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="image-wrapper">
+                        <img alt="featured image of portfolio post 0" src="images/code-square.jpg"/>
+                        <div class="image-overlay">
+                            <a href="<?php echo BASE_URL ?>Portfolio?id=0" class="button">Read</a>
                         </div>
                     </div>
                 </div>
