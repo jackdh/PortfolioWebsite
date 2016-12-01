@@ -19,7 +19,7 @@ include 'header.php';
                     <div class="image-wrapper">
                         <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=660%C3%97640&w=660&h=640"/>
                         <div class="image-overlay">
-                            <button class="button">Read</button>
+                            <a href="<?php echo BASE_URL ?>Portfolio?id=0" class="button">Read</a>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ include 'header.php';
                     <div class="image-wrapper">
                         <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=660%C3%97640&w=660&h=640"/>
                         <div class="image-overlay">
-                            <button class="button">Read</button>
+                            <a href="<?php echo BASE_URL ?>Portfolio?id=1" class="button">Read</a>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ include 'header.php';
                     <div class="image-wrapper">
                         <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=660%C3%97640&w=660&h=640"/>
                         <div class="image-overlay">
-                            <button class="button">Read</button>
+                            <a href="<?php echo BASE_URL ?>Portfolio?id=2" class="button">Read</a>
                         </div>
                     </div>
                 </div>

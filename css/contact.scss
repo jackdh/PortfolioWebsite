@@ -1,0 +1,50 @@
+@import "variables";
+@import "shared.scss";
+
+.card {
+  width: 100%;
+  padding: 0 2%;
+}
+
+
+
+h2 {
+  margin: 5px 0;
+  font-size: 1.5em;
+}
+p {
+  margin-top: 0;
+}
+
+label {
+
+}
+
+form {
+  .row {
+    margin-bottom: 15px;
+  }
+  .search {
+    margin-top: 0;
+    padding: .5em 0;
+  }
+  .col-1-sm {
+    margin-top: 5px;
+    .label {
+    }
+  }
+
+}
+.button {
+  padding: 5px 35px 5px 35px;
+  background-color: $green;
+  color: #FFFFFF;
+  width: 35px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  @include border-radius(2px);
+  @extend .card-2;
+}
+
+
+

@@ -30,8 +30,8 @@ include '../header.php';
                     <p>Welcome to my portfolio page!.</p>
                     <p>This is the page that I will occasionally update with project that I have worked on and
                         released.</p>
-                    <label for="search">Search</label>
-                    <input id="search" type="search"/>
+                    <label for="portfolio-search">Search</label>
+                    <input id="portfolio-search" class="search" type="search"/>
                 </div>
             </aside>
         </div>

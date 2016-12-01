@@ -93,6 +93,14 @@ if ($('#portfolio-page').length) {
             $template.find('.cover-img').attr("src", item.imgLink);
             $template.find('.cover-img').attr("alt", item.imgAlt);
             $('.content-wrapper').append($template);
+            /** If id is set from home page */
+            if (getParam("id") != null) {
+                // If ID was set.
+                console.log(getParam("id"));
+                populateModal(parseInt(getParam("id")));
+                $('.modal').show();
+
+            }
         });
     });
 
@@ -145,9 +153,6 @@ if ($('#portfolio-page').length) {
     }
 
 
-
-
-
     /** Start Model */
 
     // Close the model by clicking off it.
@@ -165,9 +170,36 @@ if ($('#portfolio-page').length) {
 
     /** End Model */
 
+    /** given GET key will return it's value */
+    function getParam(string) {
+        var $_GET = {};
+        document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+            function decode(s) {
+                return decodeURIComponent(s.split("+").join(" "));
+            }
+
+            $_GET[decode(arguments[1])] = decode(arguments[2]);
+        });
+        return $_GET[string]
+    }
+
+
+
+
 
 }
+/***
+ *
+ * Contact
+ *
+ * */
+if ($('#contact-page').length) {
 
+    $(document).on('click', '#sendEmail', function(){
+        alert("Mail to requires backend server so has not been implemented. I am aware of Mail To but decided against it.");
+    });
+
+}
 
 
 
