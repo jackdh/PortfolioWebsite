@@ -27,7 +27,7 @@ include '../header.php';
     <div id="blog-template">
         <div id="" class="row item card card-shadow">
             <div class="col-2 cover-photo">
-                <img class="cover-img" src="" alt="">
+                <img class="cover-img responsive-img" src="" alt="">
             </div>
             <div class="col-10">
                 <div class="info">

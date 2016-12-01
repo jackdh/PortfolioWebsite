@@ -14,7 +14,7 @@ include '../header.php';
         <h1 id="portfolio-page" class="header">Portfolio</h1>
 
         <div class="row">
-            <main class="col-8">
+            <main class="col-8-lg">
                 <!--    Using Jquery this will be auto populated from the JSON database.    -->
                 <div class="row content-wrapper">
 
@@ -24,14 +24,17 @@ include '../header.php';
                 </div>
             </main>
 
-            <aside class="col-4">
+            <aside class="col-4-lg">
                 <div class="aside-inner">
                     <h2>About</h2>
                     <p>Welcome to my portfolio page!.</p>
                     <p>This is the page that I will occasionally update with project that I have worked on and
                         released.</p>
-                    <label for="portfolio-search">Search</label>
-                    <input id="portfolio-search" class="search" type="search"/>
+                    <form class="search-form">
+                        <label for="portfolio-search">Search</label>
+                        <input name="searchRequest" id="portfolio-search" class="search" type="search"/>
+                        <button type="submit" class="button" id="search-button">Search!</button>
+                    </form>
                 </div>
             </aside>
         </div>

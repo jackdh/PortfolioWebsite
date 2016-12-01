@@ -130,7 +130,16 @@ a {
 }
 .footer-inner {
   max-width: $navbar-width;
-  padding: 65px 50px;
+  .brand {
+    padding-top: 35px;
+  }
+  .row {
+    padding-bottom: 35px;
+  }
+  @media screen and (max-width: $breakpoint-med) {
+    padding: 65px 50px;
+  }
+
   margin: 0 auto;
   ul, .col-6 {
     margin: 0;

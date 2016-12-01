@@ -12,6 +12,14 @@ aside {
       margin-top: 0;
     }
   }
+  .search-form {
+    .button {
+      float: none;
+      cursor: pointer;
+      background-color: #fff;
+      color: $black;
+    }
+  }
 }
 
 main {
@@ -33,6 +41,7 @@ main {
       margin: 0;
     }
   }
+
 
 }
 .meta {
@@ -126,15 +135,6 @@ main {
     //width: 60%;
   }
 }
-
-//.close {
-//  position: absolute;
-//  top: 0px;
-//  right: 10px;
-//  font-size: 25px;
-//  color: $grey;
-//  cursor: pointer;
-//}
 
 button {
   margin-top: -2px;

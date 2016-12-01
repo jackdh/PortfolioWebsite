@@ -75,13 +75,9 @@ button {
 h2 {
   margin: 0; }
 
-.cover-photo {
-  height: 160px; }
-  .cover-photo img {
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    border-top-left-radius: 2px; }
+.cover-photo img {
+  cursor: pointer;
+  border-top-left-radius: 2px; }
 
 .removeThis {
   height: 0; }

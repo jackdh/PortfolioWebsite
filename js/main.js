@@ -69,6 +69,14 @@ if ($('#blog-title').length) {
     $(document).on('click', '.comments-button', function () {
         alert("Comments not implemented due to no use of backend code")
     });
+
+    $(document).on('click', '#blog-load-next', function() {
+        alert("Search not implemented");
+    });
+
+    $(document).on('click', '.cover-img', function() {
+        alert("Image expansion not implemented");
+    });
 }
 
 /***
@@ -182,6 +190,14 @@ if ($('#portfolio-page').length) {
         });
         return $_GET[string]
     }
+
+    $(document).on('click', '#portfolio-load-next', function() {
+        alert("Next page not implemented");
+    });
+
+    $(document).on('click', '#search-button', function() {
+        alert("Search not implemented");
+    });
 
 
 
