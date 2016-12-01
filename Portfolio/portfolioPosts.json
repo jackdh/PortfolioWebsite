@@ -1,32 +1,32 @@
 [
   {
     "title" : "This site!",
-    "imgLink" : "https://placehold.it/350x350",
-    "imgAlt" : "Placeholder Image",
+    "imgLink" : "../images/website.jpeg",
+    "imgAlt" : "Picture of code slightly tilted",
     "meta" : "Sep 2, 2016",
     "except": "How I built this site! Read this post to learn more.",
     "post" : "Lorem ipsum dolor ffff amet, consectetur adipiscing elit. Donec ut lectus ac augue elementum auctor. Fusce egestas ut nisl at aliquet. Sed lacus tortor, feugiat vitae ante at, placerat aliquam lorem. Nam turpi lectus ac augue elementum auctor. Fusce egestas ut nisl at aliquet. Sed lacus tortor, feugiat vitae ante at, placerat aliquam lorem. Nam turpi"
   },
   {
     "title" : "Java Tennis Game",
-    "imgLink" : "https://placehold.it/350x350",
-    "imgAlt" : "Placeholder Image",
+    "imgLink" : "../images/java.jpeg",
+    "imgAlt" : "Picture of a laptop with code on it.",
     "meta" : "Sep 2, 2016",
     "except": "Built as part of my Java course at university",
     "post" : "Wouldn't you like to get away? Sometimes you want to go where everybody knows your name. And they're always glad you came! No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be!<br><br> But they got diff'rent strokes. It takes diff'rent strokes - it takes diff'rent strokes to move the world. The mate was a mighty sailin' man the Skipper brave and sure.<br> Five passengers set sail that day for a three hour tour a three hour tour. But they got diff'rent strokes. It takes diff'rent strokes - it takes diff'rent strokes to move the world."
   },
   {
     "title" : "Maze Runner",
-    "imgLink" : "https://placehold.it/350x350",
-    "imgAlt" : "Placeholder Image",
+    "imgLink" : "../images/python.png",
+    "imgAlt" : "Image of Maze Runner Game",
     "meta" : "Sep 3, 2016",
     "except": "A game built using PyGame a Python game library.",
     "post" : "Come and dance on our floor. Take a step that is new. We've a loveable space that needs your face threes company too.<br><br> The movie star the professor and Mary Ann here on Gilligans Isle! So lets make the most of this beautiful day.<br><br> Since we're together Come and knock on our door. We've been waiting for you. Where the kisses are hers and hers and his. Three's company too."
   },
   {
     "title" : "Brookes Entrepreneurs",
-    "imgLink" : "https://placehold.it/350x350",
-    "imgAlt" : "Placeholder Image",
+    "imgLink" : "../images/be.png",
+    "imgAlt" : "A white BE on blue background. Brookes Entrepreneurs logo",
     "meta" : "Sep 4, 2016",
     "except": "Information regarding the site I built for the Brookes entrepreneurs!",
     "post" : "The Brady Bunch the Brady Bunch that's the way we all became the Brady Bunch. Space. The final frontier. These are the voyages of the Starship Enterprise. Space.<br><br> The final frontier. These are the voyages of the Starship Enterprise."

@@ -1,15 +1,16 @@
 <?php
-define("SUB_FOLDER", "cw2");
-define("BASE_URL", "http://localhost:8888/".SUB_FOLDER."/");
+define("SUB_FOLDER", "");
+$extraDash = SUB_FOLDER == "" ? "" : "/";
+define("BASE_URL", "http://sots.brookes.ac.uk/~12023277/".SUB_FOLDER . $extraDash);
 
 
 $link = $_SERVER['PHP_SELF'];
 $link_array = explode('/',$link);
 $pageName = strtolower($link_array[count($link_array)-2]);
-
+$remote = "~12023277";
 ?>
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en-GB">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -25,11 +26,10 @@ $pageName = strtolower($link_array[count($link_array)-2]);
     <link rel="stylesheet" href="<?php echo BASE_URL ?>css/headerFooter.css">
 
 
-
-    <?php if ($pageName == SUB_FOLDER) {?>
+    <link rel="stylesheet" href="<?php echo BASE_URL ?>css/shared.css">
+    <?php if ($pageName == $remote) {?>
         <link rel="stylesheet" href="<?php echo BASE_URL ?>css/home.css">
     <?php } else { ?>
-        <link rel="stylesheet" href="<?php echo BASE_URL ?>css/shared.css">
         <link rel="stylesheet" href="<?php echo BASE_URL . "css/" . $pageName . ".css" ?>">
 
     <?php } ?>
@@ -40,7 +40,7 @@ $pageName = strtolower($link_array[count($link_array)-2]);
 </head>
 <body>
 <!--[if lte IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+<p class="browserupgrade">Youu are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience and security.</p>
 <![endif]-->
 

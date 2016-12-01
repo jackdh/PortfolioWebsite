@@ -24,6 +24,9 @@ aside {
 
 main {
   .image-wrapper {
+    .card {
+      margin: 0 3% 15px;
+    }
     .cover-img {
       width: 100%;
     }
@@ -115,6 +118,12 @@ main {
     margin-top: 0px;
     line-height: 1;
   }
+  .img-controls {
+    padding: 0 5%;
+    max-width: 395px;
+    margin: 0 auto
+  }
+
 }
 
 

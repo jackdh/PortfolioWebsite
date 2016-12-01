@@ -1,3 +1,11 @@
+/***
+ *
+ * Footer
+ *
+ * */
+$(document).on('click', '.footer-nav li a', function() {
+    alert("Meta Links not activated");
+});
 
 /***
  *
@@ -212,7 +220,7 @@ if ($('#portfolio-page').length) {
 if ($('#contact-page').length) {
 
     $(document).on('click', '#sendEmail', function(){
-        alert("Mail to requires backend server so has not been implemented. I am aware of Mail To but decided against it.");
+        alert("Server mailing requires backend server so has not been implemented. I am aware of Mail To but decided against it.");
     });
 
 }

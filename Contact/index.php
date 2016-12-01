@@ -21,26 +21,26 @@ include '../header.php';
                         <form>
                             <div class="row">
                                 <div class="col-1-sm">
-                                    <label>Name</label>
+                                    <label for="contact-name">Name</label>
                                 </div>
                                 <div class="col-11-sm">
-                                    <input class="search" type="text" autofocus>
+                                    <input id="contact-name" class="search" type="text" autofocus>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-1-sm">
-                                    <label>Email</label>
+                                    <label for="contact-email" >Email</label>
                                 </div>
                                 <div class="col-11-sm">
-                                    <input class="search" type="text" >
+                                    <input id="contact-email" class="search" type="text" >
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-1-sm">
-                                    <label>Email</label>
+                                    <label for="contact-details">Details</label>
                                 </div>
                                 <div class="col-11-sm">
-                                    <textarea class="search" type="text" ></textarea>
+                                    <textarea id="contact-details" class="search" type="text" ></textarea>
                                 </div>
                             </div>
                             <div class="row">
