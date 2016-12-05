@@ -14,7 +14,7 @@
                 questions please contact me!
             </div>
             <div class="col-6">
-                <nav role="navigation" class="footer-nav">
+                <nav class="footer-nav">
                     <ul>
                         <li class="#"><a href="/">Login</a></li>
                         <li><a href="https://github.com/jackdh">Github</a></li>

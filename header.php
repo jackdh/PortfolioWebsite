@@ -14,12 +14,10 @@ $remote = "~12023277";
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home</title>
-    <meta name="description" content="">
+
+    <meta name="description" content="Portfolio, Blob and Resume website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
 
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo BASE_URL ?>css/simple-grid.css">
@@ -34,6 +32,7 @@ $remote = "~12023277";
 
     <?php } ?>
 
+    <title><?php echo $pageName == $remote ? "Home" : ucfirst($pageName); ?></title>
 
 
 
@@ -50,7 +49,7 @@ $remote = "~12023277";
         <h1 class="brand">
             <a class="navbar-brand" href="<?php echo BASE_URL;?>">Jackdh</a>
         </h1>
-        <nav role="navigation" class="navbar-nav">
+        <nav class="navbar-nav">
             <ul>
                 <li class="<?= ($pageName == SUB_FOLDER) ?  "active" : ""?>"><a href="<?php echo BASE_URL;?>">Home</a></li>
                 <li class="<?= ($pageName == "portfolio") ?  "active" : ""?>"><a href="<?php echo BASE_URL ?>Portfolio">Portfolio</a></li>

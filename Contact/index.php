@@ -40,7 +40,7 @@ include '../header.php';
                                     <label for="contact-details">Details</label>
                                 </div>
                                 <div class="col-11-sm">
-                                    <textarea id="contact-details" class="search" type="text" ></textarea>
+                                    <textarea id="contact-details" class="search"  ></textarea>
                                 </div>
                             </div>
                             <div class="row">

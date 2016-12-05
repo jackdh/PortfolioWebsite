@@ -1,9 +1,6 @@
 @import "variables";
 @import "shared.scss";
 
-
-
-
 #resume-page {
   a {
     color: $blue;
@@ -12,6 +9,7 @@
     }
   }
 }
+
 .top-section {
 
   @media screen and (min-width: $breakpoint-large) {
@@ -24,7 +22,7 @@
     }
   }
   .col-6-lg {
-      //display: flex;
+    //display: flex;
     .card {
       max-width: 90%;
       flex: 1;

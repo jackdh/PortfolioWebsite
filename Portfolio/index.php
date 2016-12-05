@@ -46,7 +46,7 @@ include '../header.php';
         <div class="col-6 portfolio-template">
             <div class="card card-shadow">
                 <div class="image-wrapper">
-                    <img alt="This the template image cover for portfolio posts and will be replaced." class="cover-img" src="">
+                    <img alt="This the template image cover for portfolio posts and will be replaced." class="cover-img" src="placehold.it/300x300">
                 </div>
                 <div class="text-wrapper">
                     <h2 class="title">Template</h2>
@@ -67,7 +67,7 @@ include '../header.php';
             <div class="row">
                 <div class="col-4-lg featured-media">
                     <div class="img-controls">
-                        <img alt="Template cover image, this will be replaced." class="single-cover-img responsive-img" src="">
+                        <img alt="Template cover image, this will be replaced." class="single-cover-img responsive-img" src="placehold.it/300x300">
                         <div class="portfolio-controls">
                             <button data-target="" class="button previous move">Previous</button>
                             <button data-target="" class="button next move">Next</button>
@@ -77,9 +77,11 @@ include '../header.php';
 
                 </div>
                 <div class="col-8-lg">
-                    <h2 class="single-title"></h2>
-                    <div class="meta single-meta"></div>
-                    <article class="single-article"></article>
+                    <article class="">
+                        <h2 class="single-title">Title</h2>
+                        <div class="meta single-meta">Meta</div>
+                        <div class="single-article"></div>
+                    </article>
                 </div>
             </div>
         </div>
