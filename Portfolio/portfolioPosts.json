@@ -5,7 +5,7 @@
     "imgAlt" : "Picture of code slightly tilted",
     "meta" : "Sep 2, 2016",
     "except": "How I built this site! Read this post to learn more.",
-    "post" : "Lorem ipsum dolor ffff amet, consectetur adipiscing elit. Donec ut lectus ac augue elementum auctor. Fusce egestas ut nisl at aliquet. Sed lacus tortor, feugiat vitae ante at, placerat aliquam lorem. Nam turpi lectus ac augue elementum auctor. Fusce egestas ut nisl at aliquet. Sed lacus tortor, feugiat vitae ante at, placerat aliquam lorem. Nam turpi"
+    "post" : "THis site was built as part of the Oxford Brookes Web Technology module. Below I outline how I created it. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate leo eu augue efficitur, nec maximus augue hendrerit. Aenean lacinia scelerisque nulla in tempor. <br><br>Donec gravida lacus at sem iaculis posuere. Vestibulum ullamcorper rhoncus metus, vel gravida orci efficitur eu. Cras dignissim vitae sapien id dignissim. <br><br>Sed sagittis, orci sit amet dictum auctor, sapien est lobortis lectus, in vestibulum turpis odio eu nisl. Mauris imperdiet velit felis, id dictum neque interdum in. Morbi iaculis tristique purus, et maximus eros accumsan sit amet. Vivamus a est a magna.<br><br> Tempus pretium."
   },
   {
     "title" : "Java Tennis Game",
@@ -13,7 +13,7 @@
     "imgAlt" : "Picture of a laptop with code on it.",
     "meta" : "Sep 2, 2016",
     "except": "Built as part of my Java course at university",
-    "post" : "Wouldn't you like to get away? Sometimes you want to go where everybody knows your name. And they're always glad you came! No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be!<br><br> But they got diff'rent strokes. It takes diff'rent strokes - it takes diff'rent strokes to move the world. The mate was a mighty sailin' man the Skipper brave and sure.<br> Five passengers set sail that day for a three hour tour a three hour tour. But they got diff'rent strokes. It takes diff'rent strokes - it takes diff'rent strokes to move the world."
+    "post" : "This is the tennis game which was built during the advanced Java object orientated programming. It had a focus on Swing and JavaFX <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate leo eu augue efficitur, nec maximus augue hendrerit. Aenean lacinia scelerisque nulla in tempor. Donec gravida lacus at sem iaculis posuere. Vestibulum ullamcorper rhoncus metus, vel gravida orci efficitur eu. <br><br>Cras dignissim vitae sapien id dignissim. <br><br>Sed sagittis, orci sit amet dictum auctor, sapien est lobortis lectus, in vestibulum turpis odio eu nisl. Mauris imperdiet velit felis, id dictum neque interdum in. Morbi iaculis tristique purus, et maximus eros accumsan sit amet. Vivamus a est a magna tempus pretium."
   },
   {
     "title" : "Maze Runner",
@@ -21,7 +21,7 @@
     "imgAlt" : "Image of Maze Runner Game",
     "meta" : "Sep 3, 2016",
     "except": "A game built using PyGame a Python game library.",
-    "post" : "Come and dance on our floor. Take a step that is new. We've a loveable space that needs your face threes company too.<br><br> The movie star the professor and Mary Ann here on Gilligans Isle! So lets make the most of this beautiful day.<br><br> Since we're together Come and knock on our door. We've been waiting for you. Where the kisses are hers and hers and his. Three's company too."
+    "post" : "This game was built as a group during our second year at oxford brookes. It was built as part of the Business Management coursework where we need to work in an agile manner.  <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate leo eu augue efficitur, nec maximus augue hendrerit. Aenean lacinia scelerisque nulla in tempor. Donec gravida lacus at sem iaculis posuere. <br><br>Vestibulum ullamcorper rhoncus metus, vel gravida orci efficitur eu. Cras dignissim vitae sapien id dignissim. Sed sagittis, orci sit amet dictum auctor, sapien est lobortis lectus, in vestibulum turpis odio eu nisl. Mauris imperdiet velit felis, id dictum neque interdum in. Morbi iaculis tristique purus, et maximus eros accumsan sit amet. Vivamus a est a magna tempus pretium."
   },
   {
     "title" : "Brookes Entrepreneurs",
@@ -29,6 +29,6 @@
     "imgAlt" : "A white BE on blue background. Brookes Entrepreneurs logo",
     "meta" : "Sep 4, 2016",
     "except": "Information regarding the site I built for the Brookes entrepreneurs!",
-    "post" : "The Brady Bunch the Brady Bunch that's the way we all became the Brady Bunch. Space. The final frontier. These are the voyages of the Starship Enterprise. Space.<br><br> The final frontier. These are the voyages of the Starship Enterprise."
+    "post": "Brookes Entrepreneurs are a large society at Brookes. THey host many talks and events in which you can meet some really interesting people. When to designing there site I needed to take all of that into account before I could finish it.  <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate leo eu augue efficitur, nec maximus augue hendrerit. Aenean lacinia scelerisque nulla in tempor. <br><br>Donec gravida lacus at sem iaculis posuere. Vestibulum ullamcorper rhoncus metus, vel gravida orci efficitur eu. Cras dignissim vitae sapien id dignissim. Sed sagittis, orci sit amet dictum auctor, sapien est lobortis lectus, in vestibulum turpis odio eu nisl. Mauris imperdiet velit felis, id dictum neque interdum in. Morbi iaculis tristique purus, et maximus eros accumsan sit amet. <br><br>Vivamus a est a magna tempus pretium."
   }
 ]
