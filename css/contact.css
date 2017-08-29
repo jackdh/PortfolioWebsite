@@ -72,40 +72,24 @@ button {
   border-radius: .25rem;
   margin-top: 10px; }
 
+.card {
+  width: 100%;
+  padding: 0 2%; }
+
 h2 {
-  margin: 0; }
+  margin: 5px 0;
+  font-size: 1.5em; }
 
-.cover-photo img {
-  cursor: pointer;
-  border-top-left-radius: 2px; }
+p {
+  margin-top: 0; }
 
-.removeThis {
-  height: 0; }
-
-.item h2 {
-  font-family: Raleway, sans-serif;
-  font-size: 1.5rem; }
-.item .info {
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-bottom: 18px; }
-.item article, .item blockquote {
-  margin: 0;
-  margin-right: 20px; }
-.item blockquote {
-  line-height: 1; }
-.item .meta {
-  color: #4f5967;
-  font-style: italic; }
-.item a {
-  font-weight: bold;
-  color: #202020;
-  cursor: pointer; }
-  .item a:hover {
-    text-decoration: underline; }
-@media screen and (max-width: 45em) {
-  .item .col-2 {
-    display: none; } }
+form .row {
+  margin-bottom: 15px; }
+form .search {
+  margin-top: 0;
+  padding: .5em 0; }
+form .col-1-sm {
+  margin-top: 5px; }
 
 .button {
   padding: 5px 35px 5px 35px;
@@ -114,26 +98,9 @@ h2 {
   width: 35px;
   cursor: pointer;
   margin-bottom: 1rem;
-  float: right;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px; }
 
-.hidden, #blog-template {
-  display: none; }
-
-button {
-  -webkit-appearance: none;
-  border-width: 0;
-  box-sizing: inherit; }
-
-.comments-wrapper {
-  margin: 15px 0; }
-
-.comments-button {
-  font-weight: bold;
-  color: #202020;
-  margin: 15px 0px; }
-
-/*# sourceMappingURL=blog.css.map */
+/*# sourceMappingURL=contact.css.map */
