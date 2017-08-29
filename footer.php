@@ -30,8 +30,7 @@
     <div class="copywrite">
         <div class="copywrite-inner">
             <div>
-                Disclaimer: This site has been constructed as coursework for module U08054 Web Technology, at Oxford Brookes University.  It is not a working website and is not connected with any site or individual referenced.
-                The views and opinions expressed within these pages are personal and should not be construed as reflecting the views and opinions of Oxford Brookes University.
+                Disclaimer: This site has been constructed as practice only. Everything here is fake and should not be taken serisouly.
             </div>
         </div>
     </div>

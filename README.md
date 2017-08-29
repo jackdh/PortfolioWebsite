@@ -1,7 +1,19 @@
 # Flat Portfolio Website
 
-A slighlty modified version of my current website.
+This website was created as a mockup for my current website.
 
-[jackdh.co.uk]: https://jackdh.co.uk	"Portfolio Website"
 
-This is a fully front end website with a little `PHP` for bringing in the headers and footers.
+
+The differences include:
+
+- A different blog section
+- Slightly different home-page
+- All Front End
+
+
+
+The site can be visited here [https://random.jack.si/portfolio](https://random.jack.si/portfolio)
+
+The image below is a screenshot of the site.
+
+![screenshot.jpg](screenshot.jpg)
