@@ -1,7 +1,7 @@
 <?php
 define("SUB_FOLDER", "");
-$extraDash = SUB_FOLDER == "" ? "" : "/";
-define("BASE_URL", "http://sots.brookes.ac.uk/~12023277/".SUB_FOLDER . $extraDash);
+// $extraDash = SUB_FOLDER == "" ? "" : "/";
+define("BASE_URL", "localhost:8888/");
 
 
 $link = $_SERVER['PHP_SELF'];
