@@ -1,13 +1,13 @@
 <?php
 define("SUB_FOLDER", "");
 // $extraDash = SUB_FOLDER == "" ? "" : "/";
-define("BASE_URL", "https://random.jack.si/portfolio/");
+define("BASE_URL", "https://random.jack.si/p/");
 
 
 $link = $_SERVER['PHP_SELF'];
 $link_array = explode('/',$link);
 $pageName = strtolower($link_array[count($link_array)-2]);
-$remote = "portfolio"; // update this to whatever /forward you are on. IE it would be portfolio for random.jack.si/portfolio
+$remote = "p"; // update this to whatever /forward you are on. IE it would be portfolio for random.jack.si/p
 ?>
 
 <!doctype html>

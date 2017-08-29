@@ -12,7 +12,7 @@ The differences include:
 
 
 
-The site can be visited here [https://random.jack.si/portfolio](https://random.jack.si/portfolio)
+The site can be visited here [https://random.jack.si/p](https://random.jack.si/p)
 
 The image below is a screenshot of the site.
 
